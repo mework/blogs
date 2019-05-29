@@ -9,7 +9,8 @@ app.use(async ctx => {
 	ctx.body = 'Hello World';
 });
 
-console.log()
+console.log(2);
+
 app.listen(3000, () => {
 	console.log('端口监听成功！');
 });
